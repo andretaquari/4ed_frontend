@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+
+th {
+    border: 1px solid black;
+    background-color: #CCC;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: none;
+    transition: background-color 0.8s;
+}
+
+td:hover {
+    background-color: yellow;
+}
+
+/* .box {
+    width: 970px;
+    height: 360px;
+
+    background-image: url('https://cdn.ome.lt/LzhGhDuUWrBv9epCFjkhFci_W7c=/970x360/smart/uploads/conteudo/fotos/kirby3.jpg'); */
+
+    /* animation-name: animacao;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite; */
+    /* position: absolute;
+    bottom: 200px;
+    left: 20%;
+    transition: all 1s;
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    background-color: rgba(238, 238, 0, 0.6);
+    background-blend-mode: multiply;
+    filter: grayscale(0%);
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    transition: all 1s;
+    opacity: 0; 
+}
+
+.box:hover h1 {
+    opacity: 1;
+} */
+
+/* @keyframes animacao {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 0;
+        left: 100%;
+        transform: translateX(-100%);
+
+    }
+
+    50% {
+        top: 100%;
+        left: 100%;
+        transform: translate(-100%, -100%);
+    }
+
+    75% {
+        top: 100%;
+        left: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+} */
