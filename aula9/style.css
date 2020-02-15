@@ -6,27 +6,28 @@
 }
 
 body {
-    height: 900px;
+    height: 1010px;
     width: 100%;
-    background-color: rgb(17, 17, 17);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .video {
-    height: 700px;
-    width: 700px;
-    border-radius: 50%;
+    height: 100%;
+    width: 100%;
     background-image: url("https://i.ytimg.com/vi/GB_S2qFh5lU/maxresdefault.jpg");
+    background-color: rgba(17, 17, 17, 0.8);
+    background-blend-mode: multiply;
     background-size: cover;
-    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .popup {
     height: 100%;
     width: 100%;
-    background-color: rgba(17, 17, 17, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,9 +37,9 @@ body {
 }
 
 .container {
-    width: 400px ;
+    width: 400px;
     height: 200px;
-    border-radius: 20px; 
+    border-radius: 20px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -49,7 +50,7 @@ body {
 button {
     background-color: lightgray;
     padding: 13px 30px;
-    border-radius: 25px;    
+    border-radius: 25px;
     cursor: pointer;
     outline: none;
     margin-left: 20px;
