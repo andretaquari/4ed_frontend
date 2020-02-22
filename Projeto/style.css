@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+
+}
+
+.container_menu {
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    width: 180px;
+    height: 50px;
+}
+
+.menu {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FFC805;
+    margin-left: 40px;
+}
+
+
+
+nav a, nav span {
+    text-decoration: none;
+    color: #FFC805;
+    margin-left: 40px;
+}
+
+.parent {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    left: 0;
+    padding: 10px 50px;
+    background-color: white; 
+    display: none;
+}
+
+.dropdown a {
+    width: 100%;
+    display: block;
+    margin: 10px 0px;
+
+}
+
+.parent:hover .dropdown{
+    display: block;
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+    background-color: lightgray;
+}
+
+.horarios {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+
+th {
+    border: 3px solid white;
+    background-color: #CCC;
+    padding: 10px;
+}
+
+td {
+    border: 3px solid white;
+    padding: 10px;
+    text-align: center;
+    background-color: none;
+    transition: background-color 0.8s;
+}
+
+td:hover {
+    background-color: yellow;
+}
