@@ -19,13 +19,26 @@ header {
     position: relative;
 }
 
+button {
+    background-color: black;
+    padding: 10px 40px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    color: #FFC805
+}
+
 .logo {
     width: 180px;
     height: 50px;
     transition: 0.8s;
     position: absolute;
     left: 0;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
 }
 
@@ -53,15 +66,12 @@ header {
     margin-left: 40px;
 }
 
-
-
-nav a, nav span {
+nav a,
+nav span {
     text-decoration: none;
     color: #FFC805;
     margin-left: 40px;
 }
-
-
 
 .parent {
     position: relative;
@@ -85,7 +95,7 @@ nav a, nav span {
     top: 20px;
     left: 0;
     padding: 10px 70px;
-    background-color: white; 
+    background-color: white;
     display: block;
     visibility: hidden;
     z-index: 50;
@@ -97,14 +107,11 @@ nav a, nav span {
     margin: 10px 0px;
     color: black;
     z-index: 50;
-
 }
 
-.parent:hover .dropdown{
+.parent:hover .dropdown {
     visibility: visible;
 }
-
-
 
 .dropdown a:hover {
     color: #FFC805;
@@ -117,7 +124,7 @@ nav a, nav span {
     z-index: 1;
 }
 
-.banner_container{
+.banner_container {
     width: 1500px;
     height: 100%;
     margin: 0 auto;
@@ -147,6 +154,7 @@ nav a, nav span {
     color: red;
     font-size: 120px;
     line-height: 0.9;
+    margin-bottom: 0px;
 }
 
 .price_valor h4 {
@@ -154,6 +162,11 @@ nav a, nav span {
     font-size: 80px;
     line-height: 1;
     margin-left: -30px;
+}
+
+.price p {
+    font-size: 20p;
+    font-weight: bold;
 }
 
 .horarios {
@@ -169,26 +182,29 @@ table {
     border-collapse: collapse;
 }
 
+.horarios h3 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
 th {
     border: 3px solid white;
-    background-color: lightgray;;
+    background-color: lightgray;
+    ;
     padding: 10px 40px;
 }
 
 td {
     border: 3px solid white;
     text-align: center;
-    background-color: lightgray;;
+    background-color: lightgray;
+    ;
     transition: background-color 0.8s;
     padding: 10px 40px;
 }
 
 td:hover {
     background-color: yellow;
-}
-
-h3 {
-    padding-bottom: 30px;
 }
 
 .prices {
@@ -205,4 +221,152 @@ h3 {
     font-weight: 200;
     font-style: italic;
     margin-top: -30px;
+}
+
+.historia_kyo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.texto_kyo {
+    padding-right: 80px;
+}
+
+
+/* preços */
+
+.banner_container_price {
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    /* background-color: blue; */
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_2 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.price_valor_2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.price_valor_2 h5 {
+    font-size: 40px;
+}
+
+.price_valor_2 h3 {
+    color: red;
+    font-size: 120px;
+    line-height: 0.9;
+}
+
+.price_valor_2 h4 {
+    color: red;
+    font-size: 80px;
+    line-height: 1;
+    margin-left: -30px;
+}
+
+.price_3 {
+    position: absolute;
+    left: 650px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.price_valor_3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.price_valor_3 h5 {
+    font-size: 40px;
+}
+
+.price_valor_3 h3 {
+    color: red;
+    font-size: 120px;
+    line-height: 0.9;
+}
+
+.price_valor_3 h4 {
+    color: red;
+    font-size: 80px;
+    line-height: 1;
+    margin-left: -30px;
+}
+
+.price_4 {
+    position: absolute;
+    left: 1250px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.price_valor_4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.price_valor_4 h5 {
+    font-size: 40px;
+}
+
+.price_valor_4 h3 {
+    color: red;
+    font-size: 120px;
+    line-height: 0.9;
+}
+
+.price_valor_4 h4 {
+    color: red;
+    font-size: 80px;
+    line-height: 1;
+    margin-left: -30px;
+}
+
+.prices .planos {
+    padding-top: 30px;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo_footer {
+    width: 180px;
+    height: 50px;
+    padding-top: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFC805;
+    padding: 0px 20px;
+}
+
+footer p {
+    color: #FFC805;
+    font-size: 14px;
+    padding-top: 40px;
 }
