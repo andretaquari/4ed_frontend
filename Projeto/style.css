@@ -165,7 +165,7 @@ nav span {
 }
 
 .price p {
-    font-size: 20p;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -244,9 +244,6 @@ td:hover {
     position: relative;
     /* background-color: blue; */
     z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .price_2 {
@@ -369,4 +366,144 @@ footer p {
     color: #FFC805;
     font-size: 14px;
     padding-top: 40px;
+}
+
+@media (max-width: 480px) {
+
+    .banner {
+        height: 300px;
+        background-size: cover;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        width: 140px;
+        height: 40px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    button {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        z-index: 50;
+    }
+    
+    .container_menu {
+        width: 80%;
+    }
+
+    .price_valor {
+        justify-content: flex-start;
+    }
+
+    .price_valor h5 {
+        font-size: 20px;
+    }
+    
+    .price_valor h3 {
+        color: red;
+        font-size: 90px;
+        line-height: 0.8;
+        margin-bottom: 0px;
+    }
+    
+    .price_valor h4 {
+        color: red;
+        font-size: 30px;
+        line-height: 1;
+        margin-left: -20px;
+    }
+    
+    .price p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .banner_container_price {
+        width: 80%;
+    }
+    
+    .banner_container {
+        width: 80%;
+    }
+    
+    .banner_container_price {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prices {
+        height: auto;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .price_2 {
+        left: 0;
+        position: relative;
+        transform: unset;
+        margin-top: 40px;
+    }
+    
+ 
+    
+    .price_3 {
+        left: 0px;
+        position: relative;
+        transform: unset;
+        margin-top: 40px;
+    }
+ 
+    .price_4 {
+        left: 0px;
+        position: relative;
+        transform: unset;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    
+    /* table {
+        display: none;
+    } */
+
+    .wrap_table {
+        width: 90%;
+        overflow: auto;
+        margin: 0 auto;
+    }
+
+    .historia_kyo {
+        flex-direction: column;
+    }
+
+    .kyo_team {
+        width: 90%;
+
+    }
+
+    .texto_kyo {
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 40px;
+        width: 90%;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .logo_footer {
+        width: 100px;
+        height: 20px;
+    }
 }
